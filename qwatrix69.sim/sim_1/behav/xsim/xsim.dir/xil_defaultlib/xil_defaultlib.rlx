@@ -1,8 +1,0 @@
-0.7
-2020.2
-Oct 19 2021
-03:16:22
-C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.sim/sim_1/behav/xsim/glbl.v,1634335546,verilog,,,,glbl,,,,,,,,
-C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sim_1/new/TB.v,1735169426,verilog,,,,TB,,,,,,,,
-C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v,1735171709,verilog,,C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sim_1/new/TB.v,,counter;debounce;fsm;lcd162_text;main;main_lab1,,,,,,,,
-D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v,1733993669,verilog,,C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v,,lcd162_st,,,,,,,,

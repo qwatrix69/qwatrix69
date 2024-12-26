@@ -1,0 +1,30 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_behav xil_defaultlib.TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'PWRDWN' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:89]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'RST' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:90]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'btns' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:114]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'i_r_lab2' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:158]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module unisims_ver.MMCME2_BASE(CLKIN1_PERIOD=5.0,CL...
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.debounce
+Compiling module xil_defaultlib.fsm
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module xil_defaultlib.main_lab1
+Compiling module xil_defaultlib.lcd162_text
+Compiling module xil_defaultlib.lcd162_st(cycles_per_us=86)
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_behav

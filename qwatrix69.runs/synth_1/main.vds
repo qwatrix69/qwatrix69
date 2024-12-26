@@ -1,0 +1,712 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Dec 26 03:12:15 2024
+# Process ID: 9928
+# Current directory: C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.runs/synth_1/main.vds
+# Journal file: C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.runs/synth_1\vivado.jou
+# Running On: DESKTOP-H10KGP3, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 2, Host memory: 8435 MB
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/utils_1/imports/synth_1/main.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/utils_1/imports/synth_1/main.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top main -part xc7vx485tffg1761-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4328
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:38]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:41]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:42]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:43]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:65]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:66]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:67]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:68]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:69]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:70]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:71]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:72]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:73]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:74]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:75]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:76]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:77]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:78]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lcd162_st with formal parameter declaration list [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:79]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1249.820 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:3]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:55219]
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (1#1) [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:55219]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (2#1) [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_BASE' [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:63630]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 5.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 5.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 12.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_DIVIDE bound to: 12 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 18.750000 - type: double 
+	Parameter CLKOUT2_DIVIDE bound to: 24 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_DIVIDE bound to: 48 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: double 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.000000 - type: double 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_BASE' (3#1) [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:63630]
+INFO: [Synth 8-6157] synthesizing module 'counter' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:192]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (4#1) [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:192]
+INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:263]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (5#1) [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:263]
+INFO: [Synth 8-6157] synthesizing module 'fsm' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:289]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:311]
+INFO: [Synth 8-6155] done synthesizing module 'fsm' (6#1) [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:289]
+WARNING: [Synth 8-689] width (5) of port connection 'btns' does not match port width (4) of module 'fsm' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:114]
+INFO: [Synth 8-6157] synthesizing module 'main_lab1' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:218]
+INFO: [Synth 8-6157] synthesizing module 'LUT2' [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:62683]
+	Parameter INIT bound to: 4'b0110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2' (7#1) [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:62683]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized0' [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:62683]
+	Parameter INIT bound to: 4'b0010 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized0' (7#1) [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:62683]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized1' [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:62683]
+	Parameter INIT bound to: 4'b1000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized1' (7#1) [D:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:62683]
+INFO: [Synth 8-6155] done synthesizing module 'main_lab1' (8#1) [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:218]
+INFO: [Synth 8-6157] synthesizing module 'lcd162_text' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:342]
+WARNING: [Synth 8-6014] Unused sequential element show_on_disp_reg_reg was removed.  [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:439]
+WARNING: [Synth 8-6014] Unused sequential element data_wr_reg_reg was removed.  [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:440]
+INFO: [Synth 8-6155] done synthesizing module 'lcd162_text' (9#1) [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:342]
+WARNING: [Synth 8-689] width (2) of port connection 'i_r_lab2' does not match port width (1) of module 'lcd162_text' [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:158]
+INFO: [Synth 8-6157] synthesizing module 'lcd162_st' [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:23]
+	Parameter cycles_per_us bound to: 86 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:132]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:516]
+INFO: [Synth 8-6155] done synthesizing module 'lcd162_st' (10#1) [D:/FPGA/Lab2/Lab2.srcs/sources_1/new/lcd162_st.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'main' (11#1) [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/sources_1/new/main.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1297.559 ; gain = 47.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1297.559 ; gain = 47.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1297.559 ; gain = 47.738
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1297.559 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc]
+WARNING: [Vivado 12-584] No ports matched 'USER_CLOCK_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_CLOCK_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_CLOCK_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_CLOCK_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_SMA_CLOCK_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_SMA_CLOCK_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_SMA_CLOCK_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_SMA_CLOCK_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SMA_MGT_REFCLK_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SMA_MGT_REFCLK_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SMA_MGT_TX_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SMA_MGT_RX_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SMA_MGT_TX_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SMA_MGT_RX_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'REC_CLOCK_C_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'REC_CLOCK_C_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'REC_CLOCK_C_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'REC_CLOCK_C_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SI5324_INT_ALM_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SI5324_INT_ALM_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SI5324_RST_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SI5324_RST_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESET'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESET'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SM_FAN_PWM'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SM_FAN_PWM'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SM_FAN_TACH'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SM_FAN_TACH'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMBUS_CLK_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMBUS_CLK_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMBUS_ALERT_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMBUS_ALERT_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMBUS_DATA_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMBUS_DATA_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW0'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW0'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW1'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW1'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW2'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW2'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW3'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW3'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW4'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW4'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW5'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW5'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW6'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW6'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW7'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_DIP_SW7'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_C'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:154]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:154]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_C'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_E'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_E'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:159]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_S'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_S'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_W'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_SW_W'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ROTARY_INCA'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ROTARY_INCA'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ROTARY_INCB'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ROTARY_INCB'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:169]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ROTARY_PUSH'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ROTARY_PUSH'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:171]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:171]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_SMA_GPIO_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:174]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:174]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_SMA_GPIO_P'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:175]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_SMA_GPIO_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:176]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:176]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USER_SMA_GPIO_N'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:177]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:177]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_SCL_MAIN_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:202]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:202]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_SCL_MAIN_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:203]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:203]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_SDA_MAIN_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:204]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:204]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_SDA_MAIN_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:205]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:205]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_MUX_RESET_B_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:208]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:208]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_MUX_RESET_B_LS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:209]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:209]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_VAUX0P_R'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:215]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:215]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_VAUX0P_R'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:216]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:216]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_VAUX0N_R'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:217]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:217]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_VAUX0N_R'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:218]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:218]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_VAUX8P_R'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:219]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:219]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_VAUX8P_R'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:220]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:220]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_VAUX8N_R'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:221]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:221]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_VAUX8N_R'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:222]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:222]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_GPIO_0'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:224]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:224]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_GPIO_0'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:225]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:225]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_GPIO_1'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:226]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:226]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_GPIO_1'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:227]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:227]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_GPIO_2'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:228]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:228]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_GPIO_2'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:229]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:229]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_GPIO_3'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:230]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:230]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'XADC_GPIO_3'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:231]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:231]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_UART_RX'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:237]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:237]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_UART_RX'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:238]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:238]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_UART_RTS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:239]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:239]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_UART_RTS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:240]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:240]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_UART_TX'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:241]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:241]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_UART_TX'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:242]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:242]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_UART_CTS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:243]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:243]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_UART_CTS'. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:244]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:244]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc:244]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.srcs/constrs_1/new/const.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1420.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  MMCME2_BASE => MMCME2_ADV: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1420.859 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_on_leds_reg' in module 'fsm'
+INFO: [Synth 8-802] inferred FSM for state register 'cur_st_reg' in module 'lcd162_text'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  state0 |                            00001 |                         00001111
+                  state1 |                            00010 |                         11110000
+                  state2 |                            00100 |                         10101010
+                  state3 |                            01000 |                         11100111
+                  state4 |                            10000 |                         00110011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_on_leds_reg' using encoding 'one-hot' in module 'fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 S_PAUSE |                             0001 |                               11
+                  S_WAIT |                             0010 |                               00
+                    S_WR |                             0100 |                               01
+                   S_UPD |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_st_reg' using encoding 'one-hot' in module 'lcd162_text'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   36 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   28 Bit       Adders := 2     
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               36 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               28 Bit    Registers := 2     
+	                8 Bit    Registers := 31    
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   36 Bit        Muxes := 6     
+	   5 Input   36 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   28 Bit        Muxes := 2     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   5 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 4     
+	  16 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   6 Input    6 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 5     
+	   4 Input    5 Bit        Muxes := 1     
+	  16 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 16    
+	   5 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 2     
+	  16 Input    1 Bit        Muxes := 8     
+	   7 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+-----------------------------+-----------+----------------------+-------------+
+|Module Name | RTL Object                  | Inference | Size (Depth x Width) | Primitives  | 
++------------+-----------------------------+-----------+----------------------+-------------+
+|main        | lcd162_st_inst/LCD_DATA_reg | Implied   | 32 x 8               | RAM32M x 2  | 
++------------+-----------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:52 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:53 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+-----------------------------+-----------+----------------------+-------------+
+|Module Name | RTL Object                  | Inference | Size (Depth x Width) | Primitives  | 
++------------+-----------------------------+-----------+----------------------+-------------+
+|main        | lcd162_st_inst/LCD_DATA_reg | Implied   | 32 x 8               | RAM32M x 2  | 
++------------+-----------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:01:03 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:01:03 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:01:04 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:01:04 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:01:04 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:01:04 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     2|
+|2     |CARRY4      |    35|
+|3     |LUT1        |     9|
+|4     |LUT2        |    31|
+|5     |LUT3        |    27|
+|6     |LUT4        |    69|
+|7     |LUT5        |    68|
+|8     |LUT6        |   113|
+|9     |MMCME2_BASE |     1|
+|10    |MUXF7       |     1|
+|11    |RAM32M      |     1|
+|12    |RAM32X1D    |     2|
+|13    |FDRE        |   228|
+|14    |FDSE        |    16|
+|15    |IBUF        |     5|
+|16    |IBUFDS      |     1|
+|17    |OBUF        |    15|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:01:04 . Memory (MB): peak = 1420.859 ; gain = 171.039
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:58 . Memory (MB): peak = 1420.859 ; gain = 47.738
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:01:04 . Memory (MB): peak = 1420.859 ; gain = 171.039
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1420.859 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1428.590 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  MMCME2_BASE => MMCME2_ADV: 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 1 instance 
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+
+Synth Design complete, checksum: a1616349
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 126 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:20 . Memory (MB): peak = 1428.590 ; gain = 178.770
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Tomka/Desktop/something/qwatrix69/qwatrix69.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 26 03:13:42 2024...
